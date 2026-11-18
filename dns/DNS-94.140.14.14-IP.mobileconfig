@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.14</string>
+					<string>94.140.15.15</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://94.140.14.14/dns-query</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>AdGuard DNS by IP 94.140.14.14 on Wi-Fi and 4G</string>
+			<key>PayloadDisplayName</key>
+			<string>94.140.14.14 DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.custom.dns.ip941401414.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>2B980C0B-B098-43DD-BAFF-74CB0E6247CE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Uses 94.140.14.14 directly (no hostname) on all networks</string>
+	<key>PayloadDisplayName</key>
+	<string>94.140.14.14 DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.custom.dns.ip941401414</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E4B89544-4747-419B-8634-749B6CB21D3A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
